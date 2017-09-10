@@ -1,4 +1,6 @@
 
+
+
 body
 {
     font-family: 'Open Sans', sans-serif;
@@ -15,7 +17,24 @@ body
 
 .header-photo-homme
 {
-    background-image:url("img/01.jpg");
+    background-image:url("img/10.JPG");
+    background-repeat: no-repeat;
+    height: 750px;
+    background-size: cover; 
+}
+
+.header-photo-femme
+{
+    background-image:url("img/15.JPG");
+    background-repeat: no-repeat;
+    height: 750px;
+    background-size: cover; 
+}
+
+.header-photo-galerie
+{
+    background-image:url("img/IMG_2445.JPG");
+    background-position: center;
     background-repeat: no-repeat;
     height: 750px;
     background-size: cover; 
@@ -23,6 +42,7 @@ body
 
 .description
 {
+    font-family: 'Bowlby One SC', cursive;
     text-align: center;
     color:white;
     padding-top:300px;
@@ -31,11 +51,12 @@ body
 .description h1
 {
    font-weight:bolder;
-    font-size: 68px;
+    font-size: 98px;
 }
 
 .description p
 {
+    font-family: 'Open Sans', sans-serif;
     padding-top: 30px;
     font-size: 30px;
     font-weight: bold;
@@ -135,3 +156,7 @@ footer
   width: 100%;
   height: auto;
 }
+
+@font-face{
+font-family: Reef;
+src: url('reef-webfont.woff'), url('reef-webfont.woff') format('woff');}
